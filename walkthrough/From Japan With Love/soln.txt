@@ -1,0 +1,5 @@
+Walkthrough:
+1. Unzip the zip file to obtain an mp4 file. Fix the header to get a .png file.
+2. Observe the qr code in the png file using stegsolve.jar to reveal that multiple shades of black have been used  in the code. (This can be observed only carefully that too in certatin bit planes.)
+3. Idea here is to observe all the pixels and identify that there are three shades of black, 2 of which map to "0" and "1" to encode the flag in binary.
+4. Use the script.py to decrypt and obtain the flag.

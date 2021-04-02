@@ -1,0 +1,4 @@
+Walkthrough:
+1. Observe the pcapng file with wireshark to obtain four packets of data.
+2. Looking through them you can observe that they are parts of a .wav file.
+3. Merge the parts and observe the .wav file through sonic visualiser to obtain the flag.

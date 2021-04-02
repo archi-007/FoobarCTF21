@@ -1,0 +1,7 @@
+Walkthrough:
+1. Player obtains a .wav file and has to fix the header to reveal a gif where each frame is a qrcode.
+2. Each qr code decodes to a letter. On joining the letters a fake flag is obtained which is the password to the zip file appended to the end of the gif.
+3. On extracting the contents of the zip file, the player obtains two files, viz. a png file and a hexdump. (Observe that the header of the flag.iso file is all zeroes and it is of the same size of buufer.png. A clear hint is to XOR both of them.)
+4. Player needs to XOR both files to obtain an image of a barcode. (Use online calculator or python)
+5. The barcode identifies to be a Micropdf417. Using an online barcode decoder, player can obtain a hash which is the required flag. (Link : https://products.aspose.app/barcode/recognize/pdf417)
+

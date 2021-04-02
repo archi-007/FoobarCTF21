@@ -1,0 +1,2 @@
+Walkthrough :
+1. Observe the audio through sonic visualiser and add a spectrogram layer to obtain the flag. (Might take a few tries since the image was not clear. Zooming in would help.)

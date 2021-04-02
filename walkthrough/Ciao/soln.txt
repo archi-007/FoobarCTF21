@@ -1,0 +1,13 @@
+Walkthrough : This challenge has two parts
+Part 1:
+1. Player obtains a .wav file and an image file.
+2. Analyse the .wav file through sonic visualiser to obtain the image of an encoded link embedded at the end of the file. (Identify the encoding to be base91)
+3. Follow the link to obtain a downloadable file from drive.
+4. It has a compressed text file with half of the flag hidden by SNOW steg.(Read the poem, it is Dust of SNOW)
+5. Player obtains the first half of the flag by using stegsnow.
+Part 2:
+1. On analysing the image given initially, player finds a base64 string appended to the end of the image.
+2. Decode it to get the password for the xiao extraction of the .wav file.(Here a clear hint was the challenge title. Again on listening to the audio you could figure that there was a lot of background noise which could be a red flag.)
+3. The extracted file contains a second .wav file that has the other part of the flag encoded in its LSB.
+
+Tools used : Xiao Steganography, stegsnow.
